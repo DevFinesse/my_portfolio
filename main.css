@@ -101,7 +101,7 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5; }
   body#bg-image {
-    background: url(../img/background.jpg);
+    background: url(https://res.cloudinary.com/babatundeisaac/image/upload/v1543094202/8969EE9F-8868-49A6-9604-70977C635B93.jpg);
     background-attachment: fixed;
     background-size: cover; }
     body#bg-image:after {
@@ -279,6 +279,18 @@ main {
 
 @media screen and (max-width: 500px) {
   main#home h1 {
-    margin-top: 10vh; }
+    margin-top: 5vh;
+    line-height: 1; }
+    main#home h1.lg-heading {
+      align-items: center;
+      text-align: center;
+      font-size: 70px; }
+  main#contact h1 {
+    margin-top: 5vh;
+    line-height: 1; }
+    main#contact h1.lg-heading {
+      align-items: center;
+      text-align: center;
+      font-size: 70px; }
   .projects {
     grid-template-columns: 1fr; } }
